@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:3000")
+const socket = io.connect("https://chatapp-socket-server-imh5.onrender.com") //backend url
 
 export default function ChatPage() {
 
